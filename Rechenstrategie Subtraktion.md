@@ -36,7 +36,7 @@ aliases:
 - [ ] 
 
 
-## ⚡️ Bilanzierung - Evaluation ⏰ 5min
+## ⚡️ Bilanzierung - Evaluation 
 
 **Ablauf:**
 - [ ] 
