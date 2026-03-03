@@ -8,19 +8,17 @@ aliases:
 
 # 🎯 Lernziele
 > [!info] Bezug auf Lehrplan 21
->  **D.4.F.1** 
->  
->  
->  **Überfachliches Ziel:** [[Überfachliche Kompetenzen]]
+>  **MA.1.A.3**  Die SuS können im Zahlenraum bis 100 verdoppeln subtrahieren.
+> Die SuS können Rechenstrategien für Subtraktionen **anwenden**
 
 > [!danger]- 🎯 Meine Ziele
 > - [ ] 
 
-# 🔑 Aktivierung - Input ⏰ 10min
+## 🔑 Aktivierung - Input ⏰ 10min
 
-## Material
+**Material**
 
-## Ablauf
+**Ablauf**
 - [ ] LP schreibt gross: 83-47
 - [ ] Mich interessiert: Wie weit ist es von 47 bis 83?“
 		"Wie könnte man das rausfinden?"
@@ -30,11 +28,12 @@ aliases:
 
 
 
-# 📖  XXX - Lernaktivität  ⏰ 15min
-## Material:
+## 📖  XXX - Lernaktivität  ⏰ 15min
+
+**Material:**
 
 
-## Ablauf:
+**Ablauf:**
 - [ ] 
 
 
