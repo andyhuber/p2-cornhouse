@@ -214,4 +214,25 @@ body {
   font-family: inherit !important;
 }
 
+/* Put the font on the actual markdown container Flowershow typically uses */
+.prose,
+.prose * ,
+.markdown,
+.markdown * ,
+.markdown-body,
+.markdown-body *,
+.markdown-preview-view,
+.markdown-preview-view * {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+/* Ensure lists specifically inherit */
+.prose ul, .prose ol, .prose li,
+.markdown ul, .markdown ol, .markdown li,
+.markdown-body ul, .markdown-body ol, .markdown-body li,
+.markdown-preview-view ul, .markdown-preview-view ol, .markdown-preview-view li {
+  font-family: inherit !important;
+}
+
 
