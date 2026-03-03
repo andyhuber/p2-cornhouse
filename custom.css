@@ -1,4 +1,6 @@
-
+h1 {
+ color: green
+}
 
 /* Clean green H1 banner with smooth left arrow */
 .lesson-style.markdown-rendered h1:not(.page-header),
@@ -382,3 +384,4 @@ td:first-child {
   width: 0px !important;
 
 }
+
