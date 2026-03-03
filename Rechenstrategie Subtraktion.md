@@ -4,7 +4,7 @@ cssclasses:
 aliases:
   - Lebensmittel Reflexion
 ---
-# Big Fat heading
+# Rechenstrategie Subtraktion
 
 # 🎯 Lernziele
 > [!info] Bezug auf Lehrplan 21
@@ -14,7 +14,7 @@ aliases:
 > [!danger]- 🎯 Meine Ziele
 > - [ ] 
 
-## 🔑 Aktivierung - Input ⏰ 10min
+## 🔑 Aktivierung - Input 
 
 **Material**
 
@@ -24,11 +24,10 @@ aliases:
 		"Wie könnte man das rausfinden?"
 - [ ] Ziel: Das bereits Strategien genannt werden.
 
-# Dont get it
 
 
 
-## 📖  XXX - Lernaktivität  ⏰ 15min
+## 📖  XXX - Lernaktivität  
 
 **Material:**
 
@@ -37,20 +36,13 @@ aliases:
 - [ ] 
 
 
-<h1 class="special-break">☕️  Pause - 10min </h1>
+## ⚡️ Bilanzierung - Evaluation ⏰ 5min
 
-# 👓  Vorlesen aus dem Buch ⏰ 15min
-## Ablauf:
+**Ablauf:**
 - [ ] 
-# ⚡️ Bilanzierung - Evaluation ⏰ 5min
-
-## Ablauf:
-- [ ] 
-## Material: 
+**Material:** 
 
 
-> [!info] Benefit
-> 
 
 
 # Material
