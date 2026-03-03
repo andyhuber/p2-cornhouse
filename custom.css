@@ -1,5 +1,5 @@
 h1 {
- color: green
+ color: green !important;
 }
 
 /* Clean green H1 banner with smooth left arrow */
@@ -384,4 +384,5 @@ td:first-child {
   width: 0px !important;
 
 }
+
 
