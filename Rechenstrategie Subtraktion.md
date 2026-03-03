@@ -6,16 +6,6 @@ aliases:
 ---
 
 
-## Kognitive Aktivierung
-LP schreibt gross:
-
-83 – 47
-
-Mich interessiert: Wie weit ist es von 47 bis 83?“
-"Wie könnte man das rausfinden?"
-
-Ziel: Das bereits Strategien genannt werden.
-
 # 🎯 Lernziele
 > [!info] Bezug auf Lehrplan 21
 >  **D.4.F.1** 
@@ -53,7 +43,10 @@ Leistungen niederschwellig dokumentiert werden können?
 ## Material
 
 ## Ablauf
-- [ ] 
+- [ ] LP schreibt gross: 83-47
+- [ ] Mich interessiert: Wie weit ist es von 47 bis 83?“
+		"Wie könnte man das rausfinden?"
+- [ ] Ziel: Das bereits Strategien genannt werden.
 
 > [!info] Benefit
 > Aktivierung und Hinführung zu den Lernzielen

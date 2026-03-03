@@ -1,0 +1,2 @@
+[[Rechenstrategie Subtraktion]]
+[[Schriftliche Subtraktion]]
