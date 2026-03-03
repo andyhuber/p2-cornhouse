@@ -26,8 +26,8 @@ aliases:
 		"Wie könnte man das rausfinden?"
 - [ ] Ziel: Das bereits Strategien genannt werden.
 
-> [!info] Benefit
-> Aktivierung und Hinführung zu den Lernzielen
+# Dont get it
+
 
 
 # 📖  XXX - Lernaktivität  ⏰ 15min
