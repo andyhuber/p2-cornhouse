@@ -7,7 +7,7 @@
 
   --link: #8ab4ff;
   --link-hover: #b7d1ff;
-
+  --color-scheme: light;
   --border: rgba(255,255,255,.10);
   --code-bg: rgba(255,255,255,.06);
 
@@ -346,4 +346,5 @@ code, pre, pre code, kbd, samp {
 html[data-theme="dark"] {
   background: #ffffff !important;
 }
+
 
