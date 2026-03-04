@@ -52,7 +52,7 @@ aliases:
 
 ## ⚡️ Welche Strategie ist es? - Bilanzierung
 **Material:** 
-- Exit Ticket 
+- [[#Material|Exit Ticket ]]
 
 **Ablauf:**
 - [ ] LP verteilt Exit ticket mit den drei Strategien, welche die SuS zuordnen müssen und noch ihre Lieblingsstrategie ankreuzen.
@@ -71,3 +71,5 @@ aliases:
 ![[RechenstrategieSubtraktion1.pdf]]^sheet1
 
 ![[RechenstrategieSubtraktion2.pdf]]^strategy
+
+![[RechenstrategieSubtraktionExit.pdf]]^exit
