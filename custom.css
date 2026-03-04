@@ -24,6 +24,10 @@
   --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
 
+html[data-theme="dark"] {
+  background: #ffffff !important;
+}
+
 @media (prefers-color-scheme: light){
   :root{
     --bg:#f7f8fb;
@@ -340,3 +344,4 @@ code, pre, pre code, kbd, samp {
   clip-path: polygon(0 0, 100% 0, 0 50%, 100% 100%, 0 100%);
   opacity: 0.9;
 }
+
