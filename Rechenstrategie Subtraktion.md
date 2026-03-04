@@ -15,35 +15,37 @@ aliases:
 ## 🔑 Aktivierung
 
 **Material**
-[[RechenstrategieSubtraktion.pdf|Blatt für Visualizer]]
+[[#^sheet1|Blatt für Visualizer]]
 
 **Ablauf**
-- [ ] LP schreibt gross: 83-47
+- [ ] LP schreibt gross: **83-47**
 - [ ] Mich interessiert: Wie weit ist es von 47 bis 83?“
 		"Wie könnte man das rausfinden?"
 	- [ ] Ziel: Das bereits Strategien genannt werden.
 - [ ] LP zeigt wie die einzelnen Elemente einer Subtraktion heissen: Sie [[RechenstrategieSubtraktion.pdf|Blatt]]
 
-## 📖  Rechenstrich Input - Lernaktivität  
+## 📖  Strategien Input - Lernaktivität  
+**Material:**
+- [[#^strategy|Strategien Blatt]]
+
+**Ablauf:**
+- [ ] LP demonstriert drei verschiedene Subtraktionsstrategien am Visualizer
+	- [ ] Zerlegen, Ergänzen, Vereinfachen
+- [ ] LP lässt Strategien Blatt liegen als Hilfe während der Arbeit am Matheplan
+
+## 📖  Rechenstrich/Rechenprotokoll Input - Lernaktivität  
 
 **Material:**
 - Eigene Notizen & Rechenstrich zur Aufgabe
 
 **Ablauf:**
-- [ ] LP schreibt eine Subtraktion auf: 804 – 372.   
+- [ ] LP schreibt eine Subtraktion auf: **804 – 372.**   
 - [ ] LP zeichnet Rechenstrich und fragt SuS bei den verschiedenen Schritten was als nächstes kommt.
-
-## 📖  Rechenprotokoll Input - Lernaktivität  
-**Material:**
-- Eigene Notizen & Rechenprotokoll zur Aufgabe
-
-**Ablauf:**
-- [ ] LP schreibt eine Subtraktion auf: 804 – 372.   
 - [ ] LP zeichnet Rechenprotokoll und fragt SuS bei den verschiedenen Schritten was als nächstes kommt.
 
-## 📖  Rechenprotokoll Input - Lernaktivität  
+## 📖  Arbeiten am Matheplan - Lernaktivität  
 **Material:**
-- [[3.10 Rechenstrategien Addition, Rechenstrategien Subtraktion, Flexibel rechnen.pdf|Matheplan]]
+- [[#^mathePlan|Matheplan]]
 
 **Ablauf:**
 - [ ] SuS arbeiten eigenständig am Matheplan
@@ -60,6 +62,10 @@ aliases:
 
 # Material
 
-![[3.10 Rechenstrategien Addition, Rechenstrategien Subtraktion, Flexibel rechnen.pdf]]
+![[3.10 Rechenstrategien Addition, Rechenstrategien Subtraktion, Flexibel rechnen.pdf]]^mathePlan
 
-![[RechenstrategieSubtraktion.pdf]]
+
+
+![[RechenstrategieSubtraktion1.pdf]]^sheet1
+
+![[RechenstrategieSubtraktion2.pdf]]^strategy
