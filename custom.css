@@ -343,9 +343,39 @@ code, pre, pre code, kbd, samp {
 }
 
 
-html[data-theme="dark"] {
+/* If the framework uses data-theme */
+html[data-theme="dark"],
+html[data-theme="dark"] body,
+html[data-theme="dark"] .site-layout,
+html[data-theme="dark"] .site-body,
+html[data-theme="dark"] .page-main,
+html[data-theme="dark"] .page-body,
+html[data-theme="dark"] #mdxpage {
   background: #ffffff !important;
+  color: #111111 !important;
 }
 
+/* If the framework uses a .dark class instead */
+html.dark,
+html.dark body,
+html.dark .site-layout,
+html.dark .site-body,
+html.dark .page-main,
+html.dark .page-body,
+html.dark #mdxpage,
+body.dark,
+body.dark .site-layout,
+body.dark .site-body {
+  background: #ffffff !important;
+  color: #111111 !important;
+}
+
+/* If dark mode comes from prefers-color-scheme media queries */
+@media (prefers-color-scheme: dark) {
+  html, body, .site-layout, .site-body, .page-main, .page-body, #mdxpage {
+    background: #ffffff !important;
+    color: #111111 !important;
+  }
+}
 
 
