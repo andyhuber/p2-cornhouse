@@ -15,7 +15,7 @@ aliases:
 ## 🔑 Aktivierung
 
 **Material**
-[[#^sheet1|Blatt für Visualizer]]
+[[#Material|Blatt für Visualizer]]
 
 **Ablauf**
 - [ ] LP schreibt gross: **83-47**
@@ -26,7 +26,7 @@ aliases:
 
 ## 📖  Strategien Input - Lernaktivität  
 **Material:**
-- [[#^strategy|Strategien Blatt]]
+- [[#Material|Strategien Blatt]]
 
 **Ablauf:**
 - [ ] LP demonstriert drei verschiedene Subtraktionsstrategien am Visualizer
@@ -34,7 +34,6 @@ aliases:
 - [ ] LP lässt Strategien Blatt liegen als Hilfe während der Arbeit am Matheplan
 
 ## 📖  Rechenstrich/Rechenprotokoll Input - Lernaktivität  
-
 **Material:**
 - Eigene Notizen & Rechenstrich zur Aufgabe
 
@@ -45,17 +44,20 @@ aliases:
 
 ## 📖  Arbeiten am Matheplan - Lernaktivität  
 **Material:**
-- [[#^mathePlan|Matheplan]]
+- [[#Material|Matheplan]]
 
 **Ablauf:**
 - [ ] SuS arbeiten eigenständig am Matheplan
 - [ ] LP bietet an die Rechenstrategien an Kleingruppen oder individuell zu demonstrieren und helfen.
 
-## ⚡️ Bilanzierung - Evaluation 
+## ⚡️ Welche Strategie ist es? - Bilanzierung
+**Material:** 
+- Exit Ticket 
 
 **Ablauf:**
-- [ ] 
-**Material:** 
+- [ ] LP verteilt Exit ticket mit den drei Strategien, welche die SuS zuordnen müssen und noch ihre Lieblingsstrategie ankreuzen.
+
+
 
 
 
