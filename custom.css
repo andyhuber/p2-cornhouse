@@ -23,7 +23,7 @@
   --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial;
   --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
-
+:root { color-scheme: light !important; }
 
 @media (prefers-color-scheme: light){
   :root{
@@ -346,5 +346,6 @@ code, pre, pre code, kbd, samp {
 html[data-theme="dark"] {
   background: #ffffff !important;
 }
+
 
 
