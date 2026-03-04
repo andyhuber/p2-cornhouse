@@ -225,3 +225,118 @@ code, pre, pre code, kbd, samp {
 
 
 
+/* ===== Base font: fix serif everywhere inside the rendered MDX ===== */
+#mdxpage, 
+#mdxpage * {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Keep code monospace only */
+#mdxpage code, 
+#mdxpage pre, 
+#mdxpage pre code, 
+#mdxpage kbd, 
+#mdxpage samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace !important;
+}
+
+/* ===== H2 banner (your “section headings”) ===== */
+#mdxpage h2 {
+  position: relative;
+  background: #b3cca3;            /* green */
+  color: #1a1a1a !important;
+  font-weight: 500;
+  font-size: 1.15rem;
+  margin: 1em 0 !important;
+  padding: 0.7em 1em 0.7em 2.1em;
+  border-radius: 12px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+/* Chevron */
+#mdxpage h2::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 22px;
+  background: var(--background, #fff); /* fallback */
+  clip-path: polygon(0 0, 100% 0, 0 50%, 100% 100%, 0 100%);
+  opacity: 0.9;
+}
+
+/* Optional: keep H1 clean/simple (no banner) */
+#mdxpage h1 {
+  margin: 0.8em 0 0.4em !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+/* Spacing cleanup (similar to your Obsidian tweaks) */
+#mdxpage p {
+  margin-block-start: 0.3rem !important;
+  margin-block-end: 1rem !important;
+}
+#mdxpage ul, #mdxpage ol {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+
+/* Emphasis color like before */
+#mdxpage em {
+  color: #be7335 !important;
+  font-style: italic;
+}
+
+/* Round callouts (your DOM has data-callout attributes) */
+#mdxpage [data-callout] {
+  border-radius: 20px !important;
+}
+
+/* ===== Per-section coloring via heading id (works with your screenshot) ===== */
+/* Examples from your DOM: <h1 id="--lernziele">, <h2 id="--aktivierung"> ... */
+
+/* Lernziele */
+#mdxpage h1#--lernziele,
+#mdxpage h2#--lernziele {
+  background: #3E616B !important;
+  color: #fff !important;
+}
+
+/* Aktivierung */
+#mdxpage h2#--aktivierung {
+  background: #93b9b0 !important;
+}
+
+/* Bilanzierung */
+#mdxpage h2#--bilanzierung---evaluation {
+  background: #f6f3a1 !important;
+}
+
+/* Material (your DOM shows an H1 id="material") */
+#mdxpage h1#material {
+  background: #e1e0e0 !important;
+  color: #1a1a1a !important;
+  padding: 0.7em 1em 0.7em 2.1em !important;
+  border-radius: 12px;
+}
+#mdxpage h1#material::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 22px;
+  background: var(--background, #fff);
+  clip-path: polygon(0 0, 100% 0, 0 50%, 100% 100%, 0 100%);
+  opacity: 0.9;
+}
