@@ -10,6 +10,7 @@
 
 # NMG
 - [[23.3 - Explorationspräsentation]]
+- [[24.3 - Getreide Kennenlernen & pflanzen]]
 # BG
 - [[23.3 - Mein Angstmonster & Mutfigur|23.3 - Mein Angstmonster & Mutfigur]]
 
