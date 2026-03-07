@@ -9,7 +9,7 @@
 # Deutsch
 
 # NMG
-
+- [[23.3 - Explorationspräsentation]]
 # BG
 - [[23.3 - Mein Angstmonster & Mutfigur|23.3 - Mein Angstmonster & Mutfigur]]
 
