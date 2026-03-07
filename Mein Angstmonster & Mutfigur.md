@@ -28,13 +28,14 @@
 ## 📖  Skizzenphase - Lernaktivität  
 **Material:**
 - Bleistift und A4 Papier
-- Differnzierungshilfe
+- Differenzierungshilfe
 
 **Ablauf:**
 - [ ] Die SuS machen zwei Skizzen für das Angstmonster und die Mutfigur
 
 > [!caution] Differenzierung & Lernbegleitung
-> **Scaffolds für die Kinder**
+> **Scaffolds für die SuS**
+> 
 > Tipps an die Kinder:
 > *Angstmonster:*
 > - viele Zacken
@@ -49,10 +50,21 @@
 
 ## 📖  Gestaltungsphase - Lernaktivität  
 **Material:**
-- 
+- Zeichnungsblätter A4 & A3
+- Farbstifte
+- Filzstifte
+- Neocolor
+- *Andere Medien?*
 
 **Ablauf:**
-- [ ] 
+- [ ] Die SuS zeichnen Ihre beiden Figuren auf je ein A4 oder auf nebeneinander auf ein A3 Blatt
+
+> [!caution] Differenzierung & Lernbegleitung
+> **Scaffolds für die SuS**
+> - Welche Farben fühlen sich **mutig** an? 
+> - Welche fühlen sich eher **gruselig** an?
+> - Kann deine Mutfigur eine **besondere Farbe haben, die Kraft gibt**?
+
 
 ## ⚡️ Mini Galerie - Bilanzierung
 **Material:** 
