@@ -10,7 +10,8 @@
 
 # NMG
 - [[23.3 - Explorationspräsentation]]
-- [[24.3 - Getreide Kennenlernen & pflanzen]]
+- [[24.3 - Weizenpflanzen]]
+- [[26.3 - Welche Getreide gibt es?]]
 # BG
 - [[23.3 - Mein Angstmonster & Mutfigur|23.3 - Mein Angstmonster & Mutfigur]]
 
