@@ -7,7 +7,7 @@
 - [[25.3 - Ma - 4. Kl - Schriftliche Subtraktion|25.3 - 4. Kl - Schriftliche Subtraktion]]
 
 # Deutsch
-
+- [[24.3 - De - Viel zu hoch]]
 # NMG
 - [[23.3 - NMG - Explorationspräsentation]]
 - [[24.3 - NMG - Weizenpflanzen]]
