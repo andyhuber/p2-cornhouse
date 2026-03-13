@@ -425,6 +425,11 @@ body.dark .site-body {
   /* Hide benefit callouts */
   [data-callout="info"] { display: none !important; }
 
+  /* Hide embedded PDFs */
+  iframe[data-fs-resolved-file-path$=".pdf"],
+  iframe[src$=".pdf"],
+  iframe.internal { display: none !important; }
+
   /* Clean white background, black text */
   html, body, #mdxpage, .site-layout, .site-body, .page-main, .page-body,
   .layout-inner, .layout-inner-center {
