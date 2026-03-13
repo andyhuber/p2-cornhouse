@@ -380,16 +380,41 @@ body.dark .site-body {
 
 /* ===== Print view – optimised for teaching during the lesson ===== */
 @media print {
-  /* Force full-width layout */
-  *, *::before, *::after { box-sizing: border-box; }
-  html, body { width: 100% !important; margin: 0 !important; padding: 0 !important; }
-  .markdown-preview-view { max-width: 100% !important; padding: 8px !important; margin: 0 !important; }
-  #mdxpage { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
-  .prose, .content, .markdown, .markdown-body, article, main,
-  .site-layout, .site-body, .page-main, .page-body { max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 !important; }
+  /* Nuclear reset: force every layout wrapper to full width */
+  html, body,
+  .site-layout, .site-layout.no-nav,
+  .site-body,
+  .layout-inner, .layout-inner.has-toc,
+  .layout-inner-center,
+  main, main.page-main,
+  .page-body,
+  #mdxpage, #mdxpage.rendered-mdx,
+  .markdown-preview-view {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 4px !important;
+    display: block !important;
+    float: none !important;
+    position: static !important;
+  }
 
-  /* Hide site chrome */
-  nav, header, footer, .sidebar, .nav, .site-header, .site-footer, .toc, .breadcrumb { display: none !important; }
+  /* Override the --maxw variable */
+  :root { --maxw: 100% !important; }
+
+  /* Kill flexbox/grid layouts that create columns */
+  .layout-inner, .site-body, .site-layout {
+    display: block !important;
+    flex-direction: unset !important;
+  }
+
+  /* Hide site chrome, TOC sidebar, footer */
+  nav, header, footer,
+  .sidebar, .nav, .site-header, .site-footer,
+  .page-toc-container, aside.page-toc-container,
+  .layout-inner-right,
+  .toc, .breadcrumb,
+  .page-header { display: none !important; }
 
   /* Hide theory/Leitfragen callouts (planning-only) */
   [data-callout="help"] { display: none !important; }
@@ -397,11 +422,12 @@ body.dark .site-body {
   /* Hide Kickoff image callout */
   [data-callout="cite"] { display: none !important; }
 
-  /* Hide Lernziele section benefit callout */
+  /* Hide benefit callouts */
   [data-callout="info"] { display: none !important; }
 
   /* Clean white background, black text */
-  html, body, #mdxpage, .site-layout, .site-body, .page-main, .page-body {
+  html, body, #mdxpage, .site-layout, .site-body, .page-main, .page-body,
+  .layout-inner, .layout-inner-center {
     background: #fff !important;
     color: #000 !important;
   }
