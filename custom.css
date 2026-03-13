@@ -480,6 +480,90 @@ body.teach-mode #teach-toggle {
   color: #1a1a1a;
 }
 
+/* ===== Dashboard ===== */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 1.2em 0;
+}
+.day-row {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+}
+.day-label {
+  min-width: 80px;
+  padding: 12px 10px;
+  background: #3E616B;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+}
+.day-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1;
+}
+.card {
+  flex: 1;
+  min-width: 130px;
+  padding: 14px 14px;
+  border-radius: 12px;
+  color: #1a1a1a !important;
+  text-decoration: none !important;
+  border: none !important;
+  font-weight: 700;
+  font-size: 0.95rem;
+  font-family: system-ui, sans-serif;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.card span {
+  font-weight: 400;
+  font-size: 0.82rem;
+  margin-top: 2px;
+  opacity: 0.75;
+}
+
+/* Subject colors */
+.card-de  { background: #d4e4f7; }
+.card-ma  { background: #d4edda; }
+.card-nmg { background: #f5e6cc; }
+.card-bg  { background: #e8d5f5; }
+.card-en  { background: #fde68a; }
+
+/* Mobile dashboard */
+@media (max-width: 768px) {
+  .day-row { flex-direction: column; gap: 6px; }
+  .day-label {
+    min-width: unset;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+  }
+  .card {
+    min-width: unset;
+    padding: 10px;
+    font-size: 0.88rem;
+    border-radius: 8px;
+  }
+}
+
 /* ===== Mobile: compact layout ===== */
 @media (max-width: 768px) {
   :root { --maxw: 100% !important; }
