@@ -454,20 +454,29 @@ body.teach-mode input[type="checkbox"]:checked + * {
   text-decoration: line-through;
 }
 
-/* Floating teach-mode banner */
-body.teach-mode::before {
-  content: "📋 Teach Mode";
+/* Toggle button */
+#teach-toggle {
   position: fixed;
-  top: 8px;
+  top: 12px;
   right: 12px;
+  z-index: 9999;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 24px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: system-ui, sans-serif;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+#teach-toggle {
   background: #3E616B;
   color: #fff;
-  padding: 4px 14px;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  z-index: 9999;
-  font-family: system-ui, sans-serif;
+}
+body.teach-mode #teach-toggle {
+  background: #b3cca3;
+  color: #1a1a1a;
 }
 
 /* ===== Print view – optimised for teaching during the lesson ===== */
