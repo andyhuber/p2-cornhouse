@@ -378,4 +378,45 @@ body.dark .site-body {
   }
 }
 
+/* ===== Print view – optimised for teaching during the lesson ===== */
+@media print {
+  /* Hide site chrome */
+  nav, header, footer, .sidebar, .nav, .site-header, .site-footer { display: none !important; }
+
+  /* Hide theory/Leitfragen callouts (planning-only) */
+  [data-callout="help"] { display: none !important; }
+
+  /* Hide Kickoff image callout */
+  [data-callout="cite"] { display: none !important; }
+
+  /* Clean white background, black text */
+  html, body, #mdxpage, .site-layout, .site-body, .page-main, .page-body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Remove decorative shadows and borders */
+  #mdxpage h2 { box-shadow: none !important; }
+  .callout { box-shadow: none !important; }
+  .timeline { box-shadow: none !important; }
+
+  /* Compact spacing */
+  #mdxpage p { margin: 0.2rem 0 !important; }
+  #mdxpage ul, #mdxpage ol { margin: 0.2rem 0 0.2rem 1.2em !important; }
+
+  /* Bigger checkboxes for easy use during teaching */
+  input[type="checkbox"] { transform: scale(1.4); margin-right: 8px; }
+
+  /* Page breaks: avoid splitting phases */
+  #mdxpage h1 { page-break-before: avoid; page-break-after: avoid; }
+  .callout, .timeline, .t-item { page-break-inside: avoid; }
+
+  /* Keep links readable but not distracting */
+  a { color: #000 !important; text-decoration: underline !important; }
+
+  /* No margin on body */
+  body { margin: 0 !important; padding: 0 !important; }
+  #mdxpage { padding: 0 !important; }
+}
+
 
