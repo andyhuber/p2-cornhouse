@@ -539,6 +539,58 @@ body.teach-mode #teach-toggle {
 
   /* Bottom padding reduction */
   .markdown-preview-view { padding-bottom: 20px !important; }
+
+  /* Mobile teach mode overrides */
+  body.teach-mode .layout-inner,
+  body.teach-mode .layout-inner-center,
+  body.teach-mode .site-layout,
+  body.teach-mode .site-body,
+  body.teach-mode main.page-main,
+  body.teach-mode .page-body,
+  body.teach-mode #mdxpage,
+  body.teach-mode .markdown-preview-view {
+    padding: 2px 4px !important;
+    margin: 0 !important;
+  }
+
+  body.teach-mode #mdxpage {
+    font-size: 0.88rem !important;
+    line-height: 1.35 !important;
+  }
+
+  body.teach-mode #mdxpage h1 {
+    font-size: 1.1rem !important;
+    margin: 0.2em 0 !important;
+  }
+
+  body.teach-mode #mdxpage h2 {
+    font-size: 0.85rem !important;
+    margin: 0.3em 0 !important;
+    padding: 0.3em 0.5em 0.3em 1.2em !important;
+  }
+
+  body.teach-mode #mdxpage li {
+    margin: 0.2em 0 !important;
+    line-height: 1.35 !important;
+  }
+
+  body.teach-mode #mdxpage ul,
+  body.teach-mode #mdxpage ol {
+    margin: 0 0 0 0.6em !important;
+    padding: 0 !important;
+  }
+
+  body.teach-mode input[type="checkbox"] {
+    transform: scale(1.3) !important;
+    margin-right: 6px !important;
+  }
+
+  body.teach-mode .callout {
+    margin: 0.2em 0 !important;
+    border-radius: 6px !important;
+  }
+  body.teach-mode .callout-content { padding: 0.2em 0.4em !important; }
+  body.teach-mode .callout-title { padding: 0.2em 0.4em !important; }
 }
 
 /* ===== Print view – optimised for teaching during the lesson ===== */
