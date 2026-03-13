@@ -480,6 +480,67 @@ body.teach-mode #teach-toggle {
   color: #1a1a1a;
 }
 
+/* ===== Mobile: compact layout ===== */
+@media (max-width: 768px) {
+  :root { --maxw: 100% !important; }
+
+  html, body { overflow-x: hidden !important; }
+
+  .site-layout, .site-layout.no-nav,
+  .site-body,
+  .layout-inner, .layout-inner.has-toc,
+  .layout-inner-center,
+  main, main.page-main,
+  .page-body,
+  #mdxpage, #mdxpage.rendered-mdx,
+  .markdown-preview-view {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 4px 6px !important;
+    box-sizing: border-box !important;
+  }
+
+  .markdown-preview-view .page {
+    padding: 8px 6px !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Hide TOC sidebar on mobile */
+  .page-toc-container, aside.page-toc-container,
+  .layout-inner-right { display: none !important; }
+
+  /* Tighter headings */
+  #mdxpage h1 { font-size: 1.4rem !important; margin: 0.3em 0 0.2em !important; }
+  #mdxpage h2 { font-size: 1rem !important; margin: 0.4em 0 !important; padding: 0.4em 0.6em 0.4em 1.6em !important; }
+
+  /* Compact content */
+  #mdxpage p { margin: 0.2rem 0 !important; }
+  #mdxpage ul, #mdxpage ol { margin: 0.1rem 0 0.1rem 0.8em !important; padding: 0 !important; }
+  #mdxpage li { margin: 0.15em 0 !important; }
+
+  /* Compact callouts */
+  .callout { margin: 0.4em 0 !important; border-radius: 8px !important; }
+  .callout-content { padding: 0.3em 0.5em !important; }
+  .callout-title { padding: 0.3em 0.5em !important; }
+
+  /* Timeline compact */
+  .timeline { gap: 2px !important; }
+  .t-item .t-title { font-size: 0.8rem !important; }
+  .t-item .t-meta { font-size: 0.7rem !important; }
+
+  /* Blockquotes */
+  blockquote { margin: 0.5em 0 !important; padding: 0.4em 0.6em !important; }
+
+  /* Images fit */
+  img { border-radius: 6px !important; }
+
+  /* Bottom padding reduction */
+  .markdown-preview-view { padding-bottom: 20px !important; }
+}
+
 /* ===== Print view – optimised for teaching during the lesson ===== */
 @media print {
   /* Nuclear reset: force every layout wrapper to full width */
