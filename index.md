@@ -7,38 +7,38 @@
 <div class="day-row">
 <div class="day-label">Mo<br/>23.3</div>
 <div class="day-cards">
-<div class="card card-nmg">🔬 NMG<br/><span>[[23.3 - NMG - Explorationspräsentation|Explorationspräsentation]]</span></div>
-<div class="card card-bg">🎨 BG<br/><span>[[23.3 - BE - Mein Angstmonster & Mutfigur|Angstmonster & Mutfigur]]</span></div>
+<a class="card card-nmg" href="/@andyhuber/p2-cornhouse/23.3+-+NMG+-+Explorationspräsentation">🔬 NMG<br/><span>Explorationspräsentation</span></a>
+<a class="card card-bg" href="/@andyhuber/p2-cornhouse/23.3+-+BE+-+Mein+Angstmonster+%26+Mutfigur">🎨 BG<br/><span>Angstmonster & Mutfigur</span></a>
 </div>
 </div>
 
 <div class="day-row">
 <div class="day-label">Di<br/>24.3</div>
 <div class="day-cards">
-<div class="card card-de">📖 De<br/><span>[[24.3 - De - Viel zu hoch|Viel zu hoch]]</span></div>
-<div class="card card-ma">🔢 Ma 3.Kl<br/><span>[[24.3 - Ma - 3. Kl - Rechenstrategie Subtraktion|Rechenstrategie Subtraktion]]</span></div>
-<div class="card card-nmg">🔬 NMG<br/><span>[[24.3 - NMG - Weizenpflanzen|Weizenpflanzen]]</span></div>
+<a class="card card-de" href="/@andyhuber/p2-cornhouse/24.3+-+De+-+Viel+zu+hoch">📖 De<br/><span>Viel zu hoch</span></a>
+<a class="card card-ma" href="/@andyhuber/p2-cornhouse/24.3+-+Ma+-+3.+Kl+-+Rechenstrategie+Subtraktion">🔢 Ma 3.Kl<br/><span>Rechenstrategie Subtraktion</span></a>
+<a class="card card-nmg" href="/@andyhuber/p2-cornhouse/24.3+-+NMG+-+Weizenpflanzen">🔬 NMG<br/><span>Weizenpflanzen</span></a>
 </div>
 </div>
 
 <div class="day-row">
 <div class="day-label">Mi<br/>25.3</div>
 <div class="day-cards">
-<div class="card card-ma">🔢 Ma 4.Kl<br/><span>[[25.3 - Ma - 4. Kl - Schriftliche Subtraktion|Schriftliche Subtraktion]]</span></div>
+<a class="card card-ma" href="/@andyhuber/p2-cornhouse/25.3+-+Ma+-+4.+Kl+-+Schriftliche+Subtraktion">🔢 Ma 4.Kl<br/><span>Schriftliche Subtraktion</span></a>
 </div>
 </div>
 
 <div class="day-row">
 <div class="day-label">Do<br/>26.3</div>
 <div class="day-cards">
-<div class="card card-nmg">🔬 NMG<br/><span>[[26.3 - NMG - Welche Getreide gibt es?|Welche Getreide gibt es?]]</span></div>
+<a class="card card-nmg" href="/@andyhuber/p2-cornhouse/26.3+-+NMG+-+Welche+Getreide+gibt+es%3F">🔬 NMG<br/><span>Welche Getreide gibt es?</span></a>
 </div>
 </div>
 
 <div class="day-row">
 <div class="day-label">Fr<br/>27.3</div>
 <div class="day-cards">
-<div class="card card-en">🌍 En<br/><span>[[27.3 - En - Trees are important|Trees are important]]</span></div>
+<a class="card card-en" href="/@andyhuber/p2-cornhouse/27.3+-+En+-+Trees+are+important">🌍 En<br/><span>Trees are important</span></a>
 </div>
 </div>
 
