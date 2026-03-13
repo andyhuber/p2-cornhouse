@@ -566,7 +566,13 @@ body.teach-mode #teach-toggle {
   body.teach-mode #mdxpage h2 {
     font-size: 0.95rem !important;
     margin: 0.3em 0 !important;
-    padding: 0.3em 0.5em 0.3em 1.2em !important;
+    padding: 0.3em 0.5em 0.3em 0.6em !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  body.teach-mode #mdxpage h2::before {
+    display: none !important;
   }
 
   body.teach-mode #mdxpage li {
