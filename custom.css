@@ -378,6 +378,98 @@ body.dark .site-body {
   }
 }
 
+/* ===== Teach mode – add ?teach to URL ===== */
+body.teach-mode .site-header,
+body.teach-mode .site-footer,
+body.teach-mode .page-toc-container,
+body.teach-mode .layout-inner-right,
+body.teach-mode .page-header,
+body.teach-mode nav,
+body.teach-mode footer { display: none !important; }
+
+body.teach-mode .layout-inner,
+body.teach-mode .layout-inner-center,
+body.teach-mode .site-layout,
+body.teach-mode .site-body,
+body.teach-mode main.page-main,
+body.teach-mode .page-body,
+body.teach-mode #mdxpage {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 8px !important;
+}
+
+/* Hide planning-only content */
+body.teach-mode [data-callout="help"],
+body.teach-mode [data-callout="cite"],
+body.teach-mode [data-callout="info"],
+body.teach-mode [data-callout="caution"] { display: none !important; }
+
+/* Hide embedded PDFs */
+body.teach-mode iframe[src$=".pdf"],
+body.teach-mode iframe.internal { display: none !important; }
+
+/* Hide Lernziele section entirely */
+body.teach-mode #mdxpage > h1:first-of-type ~ h1#--lernziele,
+body.teach-mode [data-callout="danger"] { display: none !important; }
+
+/* Hide Material section at bottom */
+body.teach-mode #mdxpage > h1#material { display: none !important; }
+
+/* Big tap-friendly checkboxes */
+body.teach-mode input[type="checkbox"] {
+  transform: scale(1.8) !important;
+  margin-right: 12px !important;
+  cursor: pointer !important;
+}
+
+/* Make checkboxes clickable */
+body.teach-mode input[type="checkbox"] {
+  pointer-events: auto !important;
+}
+
+/* Larger font for readability on tablet */
+body.teach-mode #mdxpage {
+  font-size: 1.1rem !important;
+  line-height: 1.6 !important;
+}
+
+/* Phase headings stand out more */
+body.teach-mode #mdxpage h2 {
+  font-size: 1.3rem !important;
+  margin: 0.8em 0 0.4em !important;
+  padding: 0.6em 1em 0.6em 2em !important;
+}
+
+/* More space between list items for tapping */
+body.teach-mode #mdxpage li {
+  margin: 0.5em 0 !important;
+  line-height: 1.6 !important;
+}
+
+/* Subtle checked-off style */
+body.teach-mode input[type="checkbox"]:checked + * {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+
+/* Floating teach-mode banner */
+body.teach-mode::before {
+  content: "📋 Teach Mode";
+  position: fixed;
+  top: 8px;
+  right: 12px;
+  background: #3E616B;
+  color: #fff;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  z-index: 9999;
+  font-family: system-ui, sans-serif;
+}
+
 /* ===== Print view – optimised for teaching during the lesson ===== */
 @media print {
   /* Nuclear reset: force every layout wrapper to full width */
